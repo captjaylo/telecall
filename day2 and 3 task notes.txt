@@ -1,0 +1,20 @@
+web training day2
+tables, responsive images,circular, square
+
+web training day 3 
+NAVBARS
+
+oct 25 march 28 qatar expo
+
+ls
+cd
+git init
+git remote add origin <gitlink>
+git add .
+git commit -m "First commit"
+git push origin master
+git help
+
+
+fontawesome libraries
+https://cdnjs.com/libraries/font-awesome

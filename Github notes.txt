@@ -1,0 +1,10 @@
+git --global
+git init
+git config user.email  --use to show the email address ussed in github
+git config user.name   --use to show the current user in the github
+git add <file.extensionname>  --use to add file name in the github
+git status--use to track hweather fiels are added or not yet
+git rm --cached <filename.extension>  --use to removed or unstage previously added file from gtihub
+
+git add .  --use to add all files existing from your folder to your gtihub
+

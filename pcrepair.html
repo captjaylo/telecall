@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous">
+
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></script>
+  <link rel="stylesheet" href="style.css"> 
+    <title>pcrepair</title>
+</head>
+<body>
+    <div class="container">
+    
+        <nav class="light-blue">
+            <div class="nav-wrapper">
+              <a href="images/jgalogo.png" class="brand-logo">
+                <i class="" center>
+                  <img src="images/jgalogo.png" alt="" height="63px" width="80px">
+                  <!-- <marquee> <class="flow-text" width="150">JGA Tech Services</marquee> 
+                     abang nalang ito gawing marquee-->
+                </i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a class="dropdown-trigger light-blue" href="#!" data-target="dropdown1">Services
+                  <i class="material-icons right" >arrow_drop_down</i></a></li>
+
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          </div>    
+    
+          <!-- slider image-->
+          <div class="container">
+            <!-- Slider-->
+            <div class="slider">
+
+                <ul class="slides">
+                    <li>
+                        <img src="images/circuit.jpg" class="responsive-img">
+                        <div class="caption left-align">
+                            <h5 class="light yellow-text text-lighten-3">Where technology meets complexity</h5>
+                                                
+                        </div>
+                    </li>
+                    <li>
+                        <img src="images/circuit1.jpg" class="responsive-img">
+                        <div class="caption center-align" >
+                            
+                        <h5 class="light orange-text text-lighten-3"></h5>
+                    
+                        </div>
+                        </li>
+
+                </ul>
+                  
+            </div>
+         
+            
+          <!--end slider image-->
+        
+         
+         <div class="section lighten-5 yellow">
+          <div class="row container">
+             
+          </div>
+          <h2 class="header left-align">Computer Repair Services</h2>
+            
+          <p class="black-text text-darken-3 lighten-3 left-align">We accept repair on various electronics equiment. We offer free diagnosis and get discounts</p>         
+        </div>
+        
+        <div class="section lighten-5 yellow">
+          <div class="row container">
+             <div class="col s12 m9">
+              <div class="slider">
+                <ul class="slides responsive-img">
+                  <li>
+                    <img src="images/consulting.jpg" class="responsive-img" >
+                  </li>
+                  <li>
+                    <img src="images/webdesign.jpg" class="responsive-img">
+                  </li>
+                  <li>
+                    <img src="images/pcrepair.png" class="responsive-img">
+                  </li>
+                  <li>
+                    <img src="images/pc.jpg" left-align height="450" width="500" class="responsive-img">
+                  </li>
+
+                </div>
+              </div>
+          </div>
+      </div>                 
+
+    <!-- Dropdown Structure -->
+    <ul id='dropdown1' class='dropdown-content'>
+      <li><a href="#!" text-lighten red>PC/Mac Repair</a></li>
+      <li><a href="#!">Home/Office Networking</a></li>
+      <li class="divider" tabindex="-1"></li>
+      <li><a href="#!">PC Setup/Support & Installation</a></li>
+      <li><a href="#!"><i class="material-icons">view_module</i>Consulting</a></li>
+      <li><a href="#!"><i class="material-icons left-align">cloud</i>Remote Support</a></li>
+
+    </ul>
+          
+    
+
+    <!--jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   
+<script>
+  $(document).ready(function(){
+    $('.tabs').tabs();
+  
+    $('.sidenav').sidenav({
+      edge: 'right',
+      inDuration: 3000,
+      outDuration: 3000
+    });
+    
+    $('.dropdown-trigger').dropdown();
+  });
+      
+  $(document).ready(function(){
+    $('.parallax').parallax();
+    });
+
+    $('.slider').slider(({
+                indicators: false,
+                height: 700,
+                witdh : 1000,
+                duration: 2000,
+                interval: 2000
+            }));
+
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    </script>
+
+<!--
+<script type="text/javascript" src="https://chatterpal.me/build/js/chatpal.js?8.3" integrity="sha384-+YIWcPZjPZYuhrEm13vJJg76TIO/g7y5B14VE35zhQdrojfD9dPemo7q6vnH44FR" crossorigin="anonymous" data-cfasync="false"></script>
+ <script>
+var chatPal = new ChatPal({embedId: 'TbPJhmZtqAYT', remoteBaseUrl: 'https://chatterpal.me/', version: '8.3'});
+</script>
+-->
+
+<div style="height: 1000px; max-width: fit-content;"></div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<!-- Material Icons -->
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--font awesome-->
+    <script src="https://kit.fontawesome.com/6a79530112.js" crossorigin="anonymous">
+
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+   <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"></script>
+  <link rel="stylesheet" href="style.css"> 
+    <title>About</title>
+</head>
+<body>
+    <div class="container responsive-img" >
+        <nav class="light-blue hide-on-small-only">
+            <div class="nav-wrapper responsive-img">
+              <a href="images/jgalogo.png" class="brand-logo responsive-img">
+                <i class="responsive-img" center>
+                  <img src="images/jgalogo.png" alt="" height="63px" width="80px">
+                  <!-- <marquee> <class="flow-text" width="150">JGA Tech Services</marquee> 
+                     abang nalang ito gawing marquee-->
+                </i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="index.html" target="_blank">Home</a></li>
+                <li><a href="about.html" target="_blank">About</a></li>
+                <li><a class="dropdown-trigger light-blue" href="#!" data-target="dropdown1">Services
+                  <i class="material-icons right" >arrow_drop_down</i></a></li>
+
+                <li><a href="">Contact Us</a></li>
+              </ul>
+            </div>
+          </nav>
+
+          </div>    
+
+    <!--Grid-->
+    <div class="container">
+
+    <div class="section lighten-5 teal">
+        <div class="row container">
+           
+        </div>
+        <h2 class="header center-align">Contact Us</h2>
+          
+        <p class="center-align">You may contact our company on the following details below.</p>         
+      </div>
+      
+      <div class="section lighten-5 yellow responsive-img">
+        <div class="row container responsive-img">
+           <div class="col s12 m9">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d3862.1383727741736!2d121.09784627588462!3d14.53407658594449!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e0!4m0!4m5!1s0x3397c79d74af7363%3A0x9358b0182d483b71!2sG4M2%2BJ5M%20C6%20pasig%2C%20C-6%2C%20Pasig%2C%20Metro%20Manila%2C%20Philippines!3m2!1d14.5340715!2d121.1004258!5e0!3m2!1sen!2som!4v1696347406886!5m2!1sen!2som" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="responsive-img"></iframe>
+            </div><br><br><br>
+           <h5 class="header left-align">Our Location address</h5>
+            
+           <div class="col s3 hide-on-small-only">
+            <h7>Block 3 Lot 17 Nagpayong II Pinagbuhatan Pasig City</h7>
+            <li>PC Repair</li>
+            <li>Remote Support</li>
+            <li>Consulting</li>
+            <li>Setup and installation</li>
+         </div>
+        </div>
+    </div>                 
+</div>
+    <!-- end Grid-->
+
+
+
+
+
+    <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="#!" text-lighten red>PC/Mac Repair</a></li>
+        <li><a href="#!">Home/Office Networking</a></li>
+        <li class="divider" tabindex="-1"></li>
+        <li><a href="#!">PC Setup/Support & Installation</a></li>
+        <li><a href="#!"><i class="material-icons">view_module</i>Consulting</a></li>
+        <li><a href="#!"><i class="material-icons left-align">cloud</i>Remote Support</a></li>
+  
+      </ul>
+<!-- footer -->
+<div class="container">
+    <nav class="light-blue center-align">
+        <div class="btn center-align">
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook"> Facebook</i></a>
+                </li>&nbsp;
+                <li><a href="https://www.instagram.com/">
+                    <i class="fa-brands fa-instagram"> Instagram</i></a>
+                </li>&nbsp;
+                <li><a href="https://www.youtube.com"
+                    <i class="fa-brands fa-youtube"> Youtube</i></li></a>
+                </li>
+            </ul>
+            
+        </div>
+      </nav>
+      </div>    
+<!-- footer -->
+
+      
+
+
+    <!--jquery CDN -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+   
+<script>
+  $(document).ready(function(){
+    $('.tabs').tabs();
+  
+    $('.sidenav').sidenav({
+      edge: 'right',
+      inDuration: 3000,
+      outDuration: 3000
+    });
+    
+    $('.dropdown-trigger').dropdown();
+  });
+      
+  $(document).ready(function(){
+    $('.parallax').parallax();
+    });
+
+    $('.slider').slider(({
+                indicators: false,
+                height: 700,
+                witdh : 1000,
+                duration: 2000,
+                interval: 2000
+            }));
+
+    $(document).ready(function(){
+      $('.carousel').carousel();
+    });
+    </script>
+
+<!--
+<script type="text/javascript" src="https://chatterpal.me/build/js/chatpal.js?8.3" integrity="sha384-+YIWcPZjPZYuhrEm13vJJg76TIO/g7y5B14VE35zhQdrojfD9dPemo7q6vnH44FR" crossorigin="anonymous" data-cfasync="false"></script>
+ <script>
+var chatPal = new ChatPal({embedId: 'TbPJhmZtqAYT', remoteBaseUrl: 'https://chatterpal.me/', version: '8.3'});
+</script>
+-->
+
+<div style="height: 1000px; max-width: fit-content;"></div>
+</body>
+</html>
